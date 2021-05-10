@@ -37,7 +37,7 @@ void DisplayCommand();
 void CommandFeatures();
 //void C_DrawKeyDown(char cKeyIn);
 void perr(char* msg, int color, int UIY);
-int PopToken(char* pszToken, int iTokenBufLen, char* pszData, char pszKeyword);
+int PopToken(char* pszToken, int iTokenBufLen, char* pszData, char* pszKeyword);
 //void DisplayCommand();
 bool Openfile(char* filename);
 void FileToArray();
